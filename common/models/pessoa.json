@@ -1,0 +1,30 @@
+{
+  "name": "Pessoa",
+  "plural": "Pessoa",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "required": true
+    },
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "cpf": {
+      "type": "string"
+    },
+    "rg": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
